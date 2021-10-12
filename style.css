@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+#main-container {
+  display: flex;
+  background-color: #fade8b;
+  width: 1200px;
+  height: 600px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-style: hidden;
+  width: 50vh;
+  height: 35vh;
+  margin: auto auto;
+}
+#cudi {
+  background-color: #62306d;
+}
+#erciyes {
+  background-color: #e3516e;
+}
+#palandoken {
+  background-color: #191210;
+}
+.yarim-kapsul {
+  display: flex;
+  background-color: #f7ec7d;
+  flex-direction: row;
+  align-items: center;
+  border-style: hidden;
+  width: 11vh;
+  height: 11vh;
+  margin-top: 2vh;
+}
+#seyhan {
+  align-self: flex-start;
+  border-radius: 50px 50px 0px 0px;
+}
+#sakarya,
+#ceyhan {
+  border-radius: 0px 0px 50px 50px;
+}
+.ceyrek1 {
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 80px;
+  height: 80px;
+  border-style: hidden;
+}
+.ceyrek2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80px;
+  height: 80px;
+  border-style: hidden;
+}
+#develi1 {
+  background-color: #51b5a9;
+  border-radius: 90px 0px 0px 0px;
+}
+#develi2 {
+  background-color: #f7f3d7;
+  border-radius: 0px 0px 0px 90px;
+}
+#hacilar1 {
+  background-color: #fade8b;
+  border-radius: 0px 90px 0px 0px;
+}
+#hacilar2 {
+  background-color: #e3516e;
+  border-radius: 0px 0px 90px 0px;
+}
+#oltu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#oltu > .kutu {
+  display: flex;
+  width: 75px;
+  height: 75px;
+  border-style: hidden;
+  margin-right: -10px;
+  margin-top: -10px;
+}
+#oltu2 {
+  display: flex;
+  justify-content: center;
+  border-radius: 0px 0px 50px 50px;
+  background-color: #eca03d;
+}
+
+#oltu2 > .kucuk-cember {
+  width: 50px;
+  height: 50px;
+  border-style: hidden;
+  background-color: #191210;
+  border-radius: 0px 0px 50px 50px;
+}
+#oltu1 {
+  background-color: #191210;
+  border-radius: 0px 0px 60px 0px;
+}
+
+#olur {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-style: hidden;
+  border-radius: 50%;
+  background-color: #eca03d;
+  justify-content: center;
+  align-items: center;
+}
+#olur > .kucuk-cember {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-color: #191210;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.kucuk-cember > div {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #84271c;
+}
+#tortum {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#tortum > .kutu {
+  display: flex;
+  width: 75px;
+  height: 75px;
+  border-style: hidden;
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+#tortum2 {
+  background-color: #191210;
+  border-radius: 90px 0px 0px 0px;
+}
+#tortum1 > .kucuk-cember {
+  width: 50px;
+  height: 50px;
+  border-style: hidden;
+  background-color: #191210;
+  justify-content: center;
+  border-radius: 50px 50px 0px 0px;
+}
+#tortum1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 50px 50px 0px 0px;
+  background-color: #eca03d;
+}
