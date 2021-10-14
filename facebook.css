@@ -1,0 +1,121 @@
+#container {
+  display: flex;
+  background-color: whitesmoke;
+  width: 200vh;
+  height: 75vh;
+  justify-content: center;
+  border-style: hidden;
+}
+
+.left-side {
+  display: flex;
+  width: 120vh;
+  height: 75vh;
+  border-style: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header > #sm {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  margin-bottom: 0vh;
+  margin-left: -38vh;
+}
+
+.left-side > p {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: normal;
+  width: 75vh;
+  height: 25vh;
+  text-align: left;
+  padding-top: 0vh;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  border-style: hidden;
+  width: 80vh;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+}
+#enterance {
+  border-style: hidden;
+  width: 40vh;
+  height: 40vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#email,
+#passwort,
+#anmelden,
+p {
+  width: 38vh;
+  height: 5vh;
+  border-radius: 1vh;
+  margin: 1px 2px 1px 4px;
+}
+#enterance > p {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+#neu-erstellen {
+  background-color: rgb(50, 205, 50);
+  color: white;
+  border-radius: 1vh;
+  margin-left: 10vh;
+  width: 20vh;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#anmelden {
+  background-color: blue;
+  color: aliceblue;
+}
+.box-footer > p {
+  font-size: 12px;
+  border-style: hidden;
+  text-align: center;
+}
+#email {
+  border-color: rgb(0, 132, 255);
+  text-decoration-color: gray;
+}
+#passwort {
+  border-color: rgba(128, 128, 128, 0.671);
+}
+nav {
+  background-color: white;
+  width: 200vh;
+  height: max-content;
+}
+.sprachen {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  border-style: hidden;
+}
+.sprachen > li {
+  border-style: hidden;
+  padding-right: 2vh;
+}
+.nav-bar {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  border-style: hidden;
+  flex-wrap: wrap;
+  width: 125vh;
+  height: 10vh;
+}
+.nav-bar > li {
+  padding-right: 2vh;
+  border-style: hidden;
+}
